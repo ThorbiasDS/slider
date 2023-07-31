@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider com HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="slider">
+        <div class="slides">
+            <!--Radio Buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--Fim Radio Buttons-->
+
+            <!--Slide images-->
+            <div class="slide first">
+                <img src="https://t3.ftcdn.net/jpg/02/84/78/34/360_F_284783436_HSbnITSR8ZEWi6wBZETWkgNiSYlOlcRt.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="data:image/jpeg;base64,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" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="https://t4.ftcdn.net/jpg/05/68/93/05/360_F_568930520_arXZIoODS1AtybPn48VhRcplxA1Q8u59.jpg" alt="Imagem 3">
+            </div>
+            <div class="slide">
+                <img src="https://thumbs.dreamstime.com/b/background-card-happy-easter-dark-sky-cross-cloud-concept-christian-religion-shining-cross-background-209986445.jpg" alt="Imagem 4">
+            </div>
+            <!--Fim Slide images-->
+
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
